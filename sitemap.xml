@@ -5,19 +5,19 @@
     
     <!-- Homepage -->
     <url>
-        <loc>https://www.fatimasantana.com.br/</loc>
+        <loc>https://terapeutafatimasantana.com.br/</loc>
         <lastmod>2025-11-18</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <image:image>
-            <image:loc>https://www.fatimasantana.com.br/public/img/TRG_banner.jpeg</image:loc>
+            <image:loc>https://terapeutafatimasantana.com.br/public/img/TRG_banner.jpeg</image:loc>
             <image:title>Transformação emocional - TRG</image:title>
         </image:image>
     </url>
 
     <!-- Seção Bem-vindo -->
     <url>
-        <loc>https://www.fatimasantana.com.br/#bem-vindo</loc>
+        <loc>https://terapeutafatimasantana.com.br/#bem-vindo</loc>
         <lastmod>2025-11-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -25,19 +25,19 @@
 
     <!-- Seção Sobre -->
     <url>
-        <loc>https://www.fatimasantana.com.br/#sobre</loc>
+        <loc>https://terapeutafatimasantana.com.br/#sobre</loc>
         <lastmod>2025-11-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
         <image:image>
-            <image:loc>https://www.fatimasantana.com.br/public/img/fat_text.jpeg</image:loc>
+            <image:loc>https://terapeutafatimasantana.com.br/public/img/fat_text.jpeg</image:loc>
             <image:title>Fátima Santana - Terapeuta TRG</image:title>
         </image:image>
     </url>
 
     <!-- Seção Serviços -->
     <url>
-        <loc>https://www.fatimasantana.com.br/#servicos</loc>
+        <loc>https://terapeutafatimasantana.com.br/#servicos</loc>
         <lastmod>2025-11-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -45,7 +45,7 @@
 
     <!-- Seção Transformação -->
     <url>
-        <loc>https://www.fatimasantana.com.br/#transformacao</loc>
+        <loc>https://terapeutafatimasantana.com.br/#transformacao</loc>
         <lastmod>2025-11-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -53,7 +53,7 @@
 
     <!-- Seção Contato -->
     <url>
-        <loc>https://www.fatimasantana.com.br/#contato</loc>
+        <loc>https://terapeutafatimasantana.com.br/#contato</loc>
         <lastmod>2025-11-18</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
