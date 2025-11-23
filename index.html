@@ -19,14 +19,11 @@
     <meta name="twitter:image" content="https://terapeutafatimasantana.com.br/public/img/TRG_banner.jpeg">
     <link rel="shortcut icon" href="/public/img/favicon.ico" type="image/x-icon">
     
-    <!-- Preload Critical Resources -->
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Inter:wght@300;400;500;600&display=swap" as="style">
     
-    <!-- DNS Prefetch -->
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     
-    <!-- Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
@@ -75,7 +72,6 @@
             padding: 0 20px;
         }
 
-        /* Navigation */
         nav {
             position: fixed;
             top: 0;
@@ -158,7 +154,6 @@
             width: 100%;
         }
 
-        /* Mobile Menu Button */
         .menu-toggle {
             display: none;
             flex-direction: column;
@@ -190,7 +185,6 @@
             transform: rotate(-45deg) translate(7px, -7px);
         }
 
-        /* Hero Section */
         .hero {
             min-height: 100vh;
             display: flex;
@@ -342,7 +336,6 @@
             to { opacity: 1; }
         }
 
-        /* Welcome Section */
         .welcome-section {
             padding: 100px 0;
             background: var(--white);
@@ -389,7 +382,6 @@
             font-weight: 600;
         }
 
-        /* About Section */
         .about-section {
             padding: 100px 0;
             background: var(--bg-light);
@@ -449,7 +441,6 @@
             line-height: 1.8;
         }
 
-        /* Services Section */
         .services-section {
             padding: 100px 0;
             background: var(--white);
@@ -495,7 +486,6 @@
             line-height: 1.7;
         }
 
-        /* Transformation Section */
         .transformation-section {
             padding: 100px 0;
             background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
@@ -537,7 +527,6 @@
             color: rgba(255, 255, 255, 0.9);
         }
 
-        /* Contact Section */
         .contact-section {
             padding: 100px 0;
             background: var(--bg-light);
@@ -654,7 +643,6 @@
             box-shadow: 0 10px 30px rgba(212, 165, 116, 0.4);
         }
 
-        /* Footer */
         footer {
             background: var(--text-dark);
             color: var(--white);
@@ -667,7 +655,6 @@
             color: rgba(255, 255, 255, 0.7);
         }
 
-        /* Scroll Reveal Animations */
         .reveal {
             opacity: 0;
             transform: translateY(50px);
@@ -679,7 +666,6 @@
             transform: translateY(0);
         }
 
-        /* Scroll Progress Bar */
         .scroll-progress {
             position: fixed;
             top: 0;
@@ -691,7 +677,6 @@
             will-change: width;
         }
 
-        /* Responsive Design */
         @media (max-width: 1024px) {
             .hero-content,
             .about-content,
@@ -792,7 +777,6 @@
             }
         }
 
-        /* Performance Optimizations */
         @media (prefers-reduced-motion: reduce) {
             * {
                 animation-duration: 0.01ms !important;
@@ -803,10 +787,8 @@
     </style>
 </head>
 <body>
-    <!-- Scroll Progress Bar -->
     <div class="scroll-progress" id="scrollProgress"></div>
 
-    <!-- Navigation -->
     <nav id="navbar">
         <div class="nav-container">
             <div class="logo">
@@ -827,7 +809,6 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section class="hero" id="inicio">
         <div class="container">
             <div class="hero-content">
@@ -856,7 +837,6 @@
         </div>
     </section>
 
-    <!-- Welcome Section -->
     <section class="welcome-section" id="bem-vindo">
         <div class="container">
             <div class="section-header reveal">
@@ -882,7 +862,6 @@
         </div>
     </section>
 
-    <!-- About Section -->
     <section class="about-section" id="sobre">
         <div class="container">
             <div class="about-content">
@@ -904,7 +883,6 @@
         </div>
     </section>
 
-    <!-- Services Section -->
     <section class="services-section" id="servicos">
         <div class="container">
             <div class="section-header reveal">
@@ -946,13 +924,11 @@
         </div>
     </section>
 
-    <!-- Transformation Section -->
     <section class="transformation-section" id="transformacao">
         <div class="container">
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section class="contact-section" id="contato">
         <div class="container">
             <div class="contact-content">
@@ -965,7 +941,7 @@
                         <div class="contact-icon">📧</div>
                         <div class="contact-details">
                             <h4>Email</h4>
-                            <p>contato@fatimasantana.com.br</p>
+                            <p>terapeutafatimasantana@gmail.com</p>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -1014,8 +990,6 @@
             </div>
         </div>
     </section>
-
-    <!-- Footer -->
     <footer>
         <div class="container">
             <p>&copy; 2025 Fátima Santana - Terapeuta TRG. Todos os direitos reservados.</p>
@@ -1023,7 +997,6 @@
     </footer>
 
     <script>
-        // Mobile Menu Toggle
         const menuToggle = document.getElementById('menuToggle');
         const navLinks = document.getElementById('navLinks');
         
@@ -1031,8 +1004,7 @@
             menuToggle.classList.toggle('active');
             navLinks.classList.toggle('active');
         });
-
-        // Close mobile menu when clicking on a link
+        
         document.querySelectorAll('.nav-links a').forEach(link => {
             link.addEventListener('click', () => {
                 menuToggle.classList.remove('active');
@@ -1040,7 +1012,6 @@
             });
         });
 
-        // Close mobile menu when clicking outside
         document.addEventListener('click', (e) => {
             if (!navLinks.contains(e.target) && !menuToggle.contains(e.target)) {
                 menuToggle.classList.remove('active');
@@ -1048,7 +1019,6 @@
             }
         });
 
-        // Scroll Progress Bar
         let ticking = false;
         window.addEventListener('scroll', () => {
             if (!ticking) {
@@ -1064,7 +1034,6 @@
             }
         });
 
-        // Navbar Scroll Effect
         const navbar = document.getElementById('navbar');
         let lastScroll = 0;
         
@@ -1083,7 +1052,6 @@
             }
         });
 
-        // Scroll Reveal Animation with Intersection Observer
         const observerOptions = {
             threshold: 0.1,
             rootMargin: '0px 0px -50px 0px'
@@ -1101,7 +1069,6 @@
             observer.observe(element);
         });
 
-        // Smooth Scroll for Navigation Links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -1116,7 +1083,6 @@
             });
         });
 
-        // Form Submission
         document.getElementById('contactForm').addEventListener('submit', function(e) {
             e.preventDefault();
             
@@ -1133,14 +1099,12 @@
             this.reset();
         });
 
-        // Lazy load images for better performance
         if ('loading' in HTMLImageElement.prototype) {
             const images = document.querySelectorAll('img[loading="lazy"]');
             images.forEach(img => {
                 img.src = img.dataset.src;
             });
         } else {
-            // Fallback for browsers that don't support lazy loading
             const script = document.createElement('script');
             script.src = 'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js';
             document.body.appendChild(script);
