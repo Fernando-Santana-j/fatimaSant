@@ -1,0 +1,18 @@
+{
+    "visible": true,
+    "name": "Fatima Santana",
+    "description": "Landing page desenvolvida para a terapeuta Fátima Santana (TRG). Fui responsável por todo o processo, incluindo desenvolvimento, publicação, hospedagem e indexação, garantindo presença digital funcional e profissional.",
+    "type":"company",
+    "status": "complete",
+    "deploy": "https://terapeutafatimasantana.com.br/",
+    "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Indexing",
+        "Hosting"
+    ],
+    "pinned": true,
+    "banner":"https://res.cloudinary.com/dmfgy0ccd/image/upload/v1772528528/Screenshot_20260303_060152_poqluj.png",
+    "complete": true
+}
